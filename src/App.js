@@ -4,6 +4,7 @@ import data from './data';
 
 import Card from './Card';
 import Nav from './Nav';
+import Footer from './Footer';
 
 export default function App() {
   const cards = data.map((item) => {
@@ -14,6 +15,7 @@ export default function App() {
     <div>
       <Nav />
       <div className="container">{cards}</div>
+      <Footer/>
     </div>
   );
 }

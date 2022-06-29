@@ -10,7 +10,7 @@ body {
   font-size: 16px;
 }
 
-.nav {
+.nav,.footer {
   display: flex;
   background-color: #f55a5a;
   color: #fff;
@@ -22,6 +22,19 @@ body {
   line-height: 18px;
   font-size: 1.5rem;
   letter-spacing: -0.075em;
+}
+
+.footer {
+  gap: 2rem;
+  background-color: #b6a6a6;
+}
+.footer a{
+  text-decoration: none;
+  color: #f1e4e4;
+}
+
+.footer a:hover{
+  color: #ffffff;
 }
 
 .container {
